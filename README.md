@@ -21,7 +21,7 @@ As you might guess, January is typically the coldest month and July the hottest.
 
 Monthly Precipitation
 While kids do get to enjoy snow days in Indiana, the summer months bring the most precipitation. Check out the monthly averages.
- 
+![Monthly Precipitation](https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_precip.png)
 
 
 The Plan
