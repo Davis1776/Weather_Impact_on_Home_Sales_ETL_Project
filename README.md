@@ -11,9 +11,9 @@ Aims
 
 •	AIM 3: Design tables and utilize Open Weather Map (API), Kaggle (CSV), U.S. Census (API). 
 
-•	Analysis tools used: Json | Python
+•	AIM 4: Uitilize Analysis tools such as: Json | Python
 
-•	AIM 4: Provide data on if weather impacts the home sales in Indiana.
+•	AIM 5: Provide data on if weather impacts the home sales in Indiana.
 
 
 Impact and Intended Results
