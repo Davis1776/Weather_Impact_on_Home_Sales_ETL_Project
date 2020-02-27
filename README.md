@@ -3,7 +3,7 @@ Participants: Allyson Taylor, Benedicta Sumalatha, James Martin, and Michael Dav
 
 Title: Does Weather in Indiana Impact If and When a Home Is Sold?
 
-Aims
+Aims:
 
 •	AIM 1: Evaluate existing data from the Indiana Property Disclosure datasets.
 
