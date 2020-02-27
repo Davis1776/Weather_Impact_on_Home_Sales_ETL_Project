@@ -25,13 +25,15 @@ Our goal is to provide the impact of home sales in Indiana based on weather. We 
 
 Average Temperatures
 
-As you might guess, January is typically the coldest month and July the hottest. Here are average temperatures for each month.  
+As you might guess, January is typically the coldest month and July the hottest. Here are average temperatures for each month. 
+
 ![Average Temperatures](https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_temp.png)
 
 
 Monthly Precipitation
 
 While kids do get to enjoy snow days in Indiana, the summer months bring the most precipitation. Check out the monthly averages.
+
 ![Monthly Precipitation](https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_precip.png)
 
 
