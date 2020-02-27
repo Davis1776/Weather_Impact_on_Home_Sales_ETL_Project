@@ -1,6 +1,4 @@
-<p align="center">
-  <Project Title>
-</p>
+<h1><center>Project Title</center></h1>
 
 Project Title
 
