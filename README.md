@@ -1,9 +1,10 @@
 # ETL-Project
 Participants: Allyson Taylor, Benedicta Sumalatha, James Martin, and Michael Davis
 
-Title: Does Weather Impact when a home is sold?
+Title: Does Weather in Indiana Impact If and When a Home Is Sold?
 
 Aims
+
 •	AIM 1: Evaluate existing data from the Indiana Property Disclosure datasets.
 •	AIM 2: Analyze data for weather, home sales, and Census data to find correlations within each dataset. 
 •	AIM 3: Design tables and utilize Open Weather Map (API), Kaggle (CSV), U.S. Census (API). 
