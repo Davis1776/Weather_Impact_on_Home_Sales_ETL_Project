@@ -1,10 +1,8 @@
 # <center>Project Title</center>
 
-Project Title
+## Project Description
 
-Project Description
-
-Extraction  - Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
+### Extraction  - Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
 - Open Weather Now (API)
 - Indiana Home Sales (Kaggle csv)
 - U.S. Census (API)
@@ -14,12 +12,12 @@ Extraction  - Extract: your original data sources and how the data was formatted
 </p>
     - 
 
-Transform  - Transform: what data cleaning or transformation was required.
+### Transform  - Transform: what data cleaning or transformation was required.
 -
 -
 -
 
-Load  - Load: the final database, tables/collections, and why this was chosen.
+### Load  - Load: the final database, tables/collections, and why this was chosen.
 -
 -
 -
