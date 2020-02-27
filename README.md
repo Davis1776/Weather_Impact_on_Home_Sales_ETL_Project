@@ -16,8 +16,11 @@ The Hoosier State that is proud to have all four seasons of the year. No matter 
 
 
 Our goal is to provide the impact of home sales in Indiana based on weather. We will look at dates, temperature changes, conditions, buyer location per county, sale prices, population count, head income and medium home value. 
+
 Average Temperatures
 As you might guess, January is typically the coldest month and July the hottest. Here are average temperatures for each month.  
+![Average Temperatures](https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_temp.png)
+
 
 Monthly Precipitation
 While kids do get to enjoy snow days in Indiana, the summer months bring the most precipitation. Check out the monthly averages.
