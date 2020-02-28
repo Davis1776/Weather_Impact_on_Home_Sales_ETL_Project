@@ -47,7 +47,7 @@ U.S. Census (API)
 
 The extracted housing related data source was the U.S. Census and was aquired using an API. The specific data set selected was from was the 2018 American Community Survey 5-Year Survey U.S. Census ACS and the data points we selected came from the following table: U.S. Census Variables
 
-![Census Data](https://github.com/allysontalyor/ETL-Project/blob/master/ACS_Screen_Shot.png)
+![Census Data](https://github.com/allysontalyor/ETL-Project/blob/master/Images/ACS_Screen_Shot.png)
 
 
 Potential Questions to Researh:
