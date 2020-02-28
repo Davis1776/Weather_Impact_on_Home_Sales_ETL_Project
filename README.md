@@ -51,7 +51,7 @@ The extracted housing related data source was the U.S. Census and was aquired us
 
 
 Potential Questions to Researh:
-1. Does Indiana daily temperature impact monthly growth?
+1. Does Indiana monthly temperature impact monthly growth?
 2. Where in the Unites States are most people moving to Indiana from? 
 3. What counties in Indiana experience the most growth per year? 
 4. Which season of the year provides a decline in yearly population growth? 
