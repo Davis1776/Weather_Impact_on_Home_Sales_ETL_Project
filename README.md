@@ -103,7 +103,8 @@ for url in url_list:
 Transform
 
 •	The columns were transposed and then the files merged back together so that the averaged weather data are columns.  
-•	A County column was added so that the census data and the weather table can be joined.  The home price data was joined via the city name.
+•	A County column was added so that the census data and the weather table can be joined. The home price data was joined via the city name.
+
 •	Please note that in this dataframe some “NaN” values were intentionally left in.  Data is present for all cities for the average high and low temperatures, but snowfall data is only available for 64 of the 107 cities.  
 
 
