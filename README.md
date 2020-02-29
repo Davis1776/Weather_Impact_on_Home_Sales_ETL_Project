@@ -193,15 +193,12 @@ for URL in url_list:
 
 •	All work to extract and transform the weather data is in:  weather_data.ipynb
 
-### Extract
-
-All three CSV files were read and loaded into a Dataframe.
+## Load 
+### All three CSV files were read and loaded into a Dataframe.
          
 •	Source for home_price_final.csv:  Kaggle: Indiana - Property Sales Disclosure.
 •	Source for average_indiana_weather.csv: US Climate Data https://www.usclimatedata.com/climate/indiana/united-states/3184
 •	Source for IN_census_file.csv: US Census Data www.census.gov 
-
-### Transform
 
 ## For ERD
 
@@ -215,13 +212,23 @@ All three CSV files were read and loaded into a Dataframe.
 
 •	The IN_census_file.csv was renamed to IN_census_file_ERD.csv
 
+## ERD Notes
+
+•	ERD diagram is saved as a PNG file QuickDBD-export.png
+
+•	DB Table creation script is stored in HomeSales_DB.sql 
+
+<p align="center">
+  <img width="524" height="835" src="https://github.com/allysontalyor/ETL-Project/blob/master/QuickDBD-export.png?raw=true">
+</p>
+
 ## For IPYNB
 
 •	Column names were made pretty by removing the space and brackets by using .str.replace(' ', '_') ('(', '') (')', '') function
 
 •	Columns with NaN were replaced with key value pair
 
-## Load
+## Loading data into database
 
 •	Created connection to PostgreSQL
 
@@ -232,17 +239,6 @@ All three CSV files were read and loaded into a Dataframe.
 •	Finally Queried to check if the DB has all the tables 
 
 •	Final **E**xtract**T**ransform**L**oad work is shown in:  Final_ETL.ipynb
-
-
-## ERD Notes
-
-•	ERD diagram is saved as a PNG file QuickDBD-export.png
-
-•	DB Table creation script is stored in HomeSales_DB.sql 
-
-<p align="center">
-  <img width="524" height="835" src="https://github.com/allysontalyor/ETL-Project/blob/master/QuickDBD-export.png?raw=true">
-</p>
 
 
 ## Potential Future Questions to Research:
