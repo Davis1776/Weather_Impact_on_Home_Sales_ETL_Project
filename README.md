@@ -239,8 +239,11 @@ All three CSV files were read and loaded into a Dataframe.
 •	ERD diagram is saved as a PNG file QuickDBD-export.png
 
 •	DB Table creation script is stored in HomeSales_DB.sql 
+
 <p align="center">
-![ERD Diagram]("https://github.com/allysontalyor/ETL-Project/blob/master/QuickDBD-export.png?raw=true")</p>
+  <img width="600" height="200" src="https://github.com/allysontalyor/ETL-Project/blob/master/QuickDBD-export.png?raw=true">
+</p>
+
 
 ## Potential Future Questions to Research:
 1. Does Indiana monthly temperature impact monthly growth?
