@@ -241,7 +241,7 @@ All three CSV files were read and loaded into a Dataframe.
 •	DB Table creation script is stored in HomeSales_DB.sql 
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/allysontalyor/ETL-Project/blob/master/QuickDBD-export.png?raw=true">
+  <img width="872" height="1391" src="https://github.com/allysontalyor/ETL-Project/blob/master/QuickDBD-export.png?raw=true">
 </p>
 
 
