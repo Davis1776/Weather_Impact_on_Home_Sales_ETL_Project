@@ -139,7 +139,7 @@ for url in url_list:
     
  
  <p align="center">
-  <img width="1112" height="1023" src="https://github.com/allysontalyor/ETL-Project/blob/master/Images/U.S.%20Climate%20Data.png">
+  <img width="779" height="717" src="https://github.com/allysontalyor/ETL-Project/blob/master/Images/U.S.%20Climate%20Data.png">
 </p>
 
 
