@@ -121,7 +121,7 @@ The state and county fields will be useful in joining the Census table to the ot
 •	We obtained weather data for 107 Indiana cities.  Only data for those cities was included in the final home price dataset.  To do this, the city list was copied over from the weather Jupyter notebook.  Then the cities needed to be converted to upper case letters to match up with the city entries in the home price dataset.  A for loop was setup to include only those 107 cities. 
 
 •   Columns were renamed to be more descriptive.  
-•   New column names: 
+New column names: 
   - Acreage 
   - Property Street 
   - Property City 
