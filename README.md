@@ -3,7 +3,7 @@ Participants: Allyson Taylor, Benedicta Sumalatha, James Martin, and Michael Dav
 
 Title: Does Weather in Indiana Impact If and When a Home Is Sold?
 
-Aims:
+## Aims:
 
 •	AIM 1: Evaluate existing data from the Indiana Property Disclosure datasets.
 
@@ -16,7 +16,7 @@ Aims:
 •	AIM 5: Provide data on if weather impacts the home sales in Indiana.
 
 
-Impact and Intended Results
+## Impact and Intended Results
 
 The Hoosier State that is proud to have all four seasons of the year. No matter what time of year it is, you’ll find something fun to do outdoors thanks to our Midwestern location. It’s often mild enough that golfers can play into late fall or early winter, but snow skiers can still hit the slopes in the winter. Hiking is fun whatever season, and when the summer sun shines brightly it’s a great time to hit a water park, baseball game or zoo.
 
@@ -24,23 +24,22 @@ Lately Indiana has been one of the top growing cities in the United States. Sinc
 
 Our goal is to provide the impact of home sales in Indiana based on weather. We will look at dates, temperature changes, conditions, buyer location per county, sale prices, population count, head income and medium home value. 
 
-Average Temperatures
+# Average Temperatures
 
 As you might guess, January is typically the coldest month and July the hottest. Here are average temperatures for each month. 
 
 ![Average Temperatures](https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_temp.png)
 
 
-Monthly Precipitation
+# Monthly Precipitation
 
 While kids do get to enjoy snow days in Indiana, the summer months bring the most precipitation. Check out the monthly averages.
 
 ![Monthly Precipitation](https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_precip.png)
 
+## The Plan
 
-The Plan
-
-Steps to Extract and Transform the Census Data
+# Steps to Extract and Transform the Census Data
 
 Extraction - Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
 Open Weather Now (API)
@@ -66,11 +65,12 @@ Transform
 •	There were many inconsistencies in the Property City column, including misspellings and differences in the cases of the letters.
 •	We obtained weather data for 107 Indiana cities.  Only data for those cities was included in the final home price dataset.  To do this, the city list was copied over from the weather jupyter notebook.  Then the cities needed to be converted to upper case letters to match up with the city entries in the home price dataset.  A for loop was setup to include only those 107 cities.  
 •	Columns were renamed to be more descriptive.  New column names: Acreage, Property Street, Property City, Property State, Property Zip, Sale Price, Buyer Street, Buyer City, Buyer State, Buyer Zip, Conveyance Date.
+•   We discovered 1,934 duplicates on home_prices.csv file
 •	Duplicate data was dropeed using: .drop_duplicates() 
 •	Finally, the cleaned file was saved as a csv.
 
 
-Steps to Extract and Transform the Weather Data:
+## Steps to Extract and Transform the Weather Data:
 
 
 Extract
@@ -105,14 +105,14 @@ Transform
 
 
 
-NOTES
+# NOTES
 
 •	The final csv file for the home price data:  home_price_final.csv
 •	The final csv file for the weather data:  average_indiana_weather.csv
 •	All work to extract and transform the home price data is in:  Home_Price_Data.ipynb
 •	All work to extract and transform the weather data is in:  weather_data.ipynb
 
-Potential Future Questions to Researh:
+# Potential Future Questions to Researh:
 1. Does Indiana monthly temperature impact monthly growth?
 2. Where in the Unites States are most people moving to Indiana from? 
 3. What counties in Indiana experience the most growth per year? 
