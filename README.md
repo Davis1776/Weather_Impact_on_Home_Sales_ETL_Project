@@ -140,6 +140,39 @@ Transform
 
 •	Please note that in this dataframe some “NaN” values were intentionally left in.  Data is present for all cities for the average high and low temperatures, but snowfall data is only available for 64 of the 107 cities.  
 
+Extract
+
+All three CSV files were read and loaded into a Dataframe.
+         
+•	Source for home_price_final.csv:  Kaggle: Indiana - Property Sales Disclosure.
+•	Source for average_indiana_weather.csv: US Climate Data https://www.usclimatedata.com/climate/indiana/united-states/3184
+•	Source for IN_census_file.csv: US Census Data www.census.gov 
+
+
+Transform
+
+For ERD
+
+•	CSV files had some random empty columns and gave error “Column violates ‘Not Null’ constraint” while trying to create ERD diagram and create Tables.  
+
+•	CSV files after filling empty columns to replace with new address where address was null, etc.
+
+•	The home_price_final.csv was renamed to home_price_final_ERD.csv
+•	The average_indiana_weather.csv was renamed to average_indiana_weather_ERD.csv
+•	The IN_census_file.csv was renamed to IN_census_file_ERD.csv
+
+For Ipynb
+
+•	Column names were made pretty by removing the space and brackets by using .str.replace(' ', '_') ('(', '') (')', '') function
+•	Columns with NaN were replaced with key value pair
+
+Load
+
+•	Created connection to PostgreSql
+•	Final DB named HomeSales_DB is loaded to PostgreSQL 
+•	All the three DFs were converted to SQL
+•	Finally Queried to check if the DB has all the tables.  
+•	Final ExtractTransformLoad work is shown in:  Final_ETL.ipynb
 
 
 # NOTES
