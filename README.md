@@ -134,9 +134,9 @@ New column names:
   - Buyer Zip 
   - Conveyance Date
 
-•       We discovered 1,934 duplicates on home_prices.csv file
+•       We discovered 1,934 duplicates on home_prices.csv file.
 
-•	Duplicate data was dropped using: .drop_duplicates() 
+•	Duplicate data was dropped using: .drop_duplicates().
 
 •	Finally, the cleaned file was saved as a csv.
 
