@@ -11,7 +11,7 @@ Aims:
 
 •	AIM 3: Design tables and utilize Open Weather Map (API), Kaggle (CSV), U.S. Census (API). 
 
-•	AIM 4: Uitilize Analysis tools such as: Json | Python
+•	AIM 4: Uitilize Analysis tools such as: Json | Python | CSV | pgAdmin 4
 
 •	AIM 5: Provide data on if weather impacts the home sales in Indiana.
 
@@ -39,6 +39,8 @@ While kids do get to enjoy snow days in Indiana, the summer months bring the mos
 
 
 The Plan
+
+Steps to Extract and Transform the Census Data
 
 Extraction - Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
 Open Weather Now (API)
