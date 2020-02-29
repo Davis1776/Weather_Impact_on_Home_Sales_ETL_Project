@@ -240,7 +240,7 @@ All three CSV files were read and loaded into a Dataframe.
 
 •	DB Table creation script is stored in HomeSales_DB.sql 
 <p align="center">
-![ERD Diagram](https://github.com/allysontalyor/ETL-Project/blob/master/QuickDBD-export.png?raw=true)</p>
+("https://github.com/allysontalyor/ETL-Project/blob/master/QuickDBD-export.png?raw=true")</p>
 
 ## Potential Future Questions to Research:
 1. Does Indiana monthly temperature impact monthly growth?
