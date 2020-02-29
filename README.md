@@ -183,7 +183,7 @@ for URL in url_list:
 •	Please note that in this dataframe some “NaN” values were intentionally left in.  Data is present for all cities for the average high and low temperatures, but snowfall data is only available for 64 of the 107 cities.  
 
 
-## Notes
+### Notes
 
 •	The final csv file for the home price data:  home_price_final.csv
 
@@ -194,13 +194,15 @@ for URL in url_list:
 •	All work to extract and transform the weather data is in:  weather_data.ipynb
 
 ## Load 
-### All three CSV files were read and loaded into a Dataframe.
+### All three CSV files were read and loaded into a Dataframe
          
-•	Source for home_price_final.csv:  Kaggle: Indiana - Property Sales Disclosure.
+•	Source for home_price_final.csv:  Kaggle: Indiana - Property Sales Disclosure
+
 •	Source for average_indiana_weather.csv: US Climate Data https://www.usclimatedata.com/climate/indiana/united-states/3184
+
 •	Source for IN_census_file.csv: US Census Data www.census.gov 
 
-## For ERD
+### For ERD
 
 •	CSV files had some random empty columns and gave error “Column violates ‘Not Null’ constraint” while trying to create ERD diagram and create Tables.  
 
@@ -212,7 +214,7 @@ for URL in url_list:
 
 •	The IN_census_file.csv was renamed to IN_census_file_ERD.csv
 
-## ERD Notes
+### ERD Notes
 
 •	ERD diagram is saved as a PNG file QuickDBD-export.png
 
@@ -222,13 +224,13 @@ for URL in url_list:
   <img width="524" height="835" src="https://github.com/allysontalyor/ETL-Project/blob/master/QuickDBD-export.png?raw=true">
 </p>
 
-## For IPYNB
+### For IPYNB
 
 •	Column names were made pretty by removing the space and brackets by using .str.replace(' ', '_') ('(', '') (')', '') function
 
 •	Columns with NaN were replaced with key value pair
 
-## Loading data into database
+### Loading data into database
 
 •	Created connection to PostgreSQL
 
