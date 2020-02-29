@@ -48,7 +48,7 @@ While kids do get to enjoy snow days in Indiana, the summer months bring the mos
 
 
 <p align="center">
-  <img width="804" height="491" src="https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_precip.png">
+  <img width="727" height="491" src="https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_precip.png">
 </p>
 
 
