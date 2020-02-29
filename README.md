@@ -1,4 +1,4 @@
-# <p align="center">Does Weather in Indiana Impact If and When a Home Is Sold? </p>
+# <p align="center">Does Weather in Indiana Impact If & When a Home Is Sold? </p>
 
 <p align="center">
   <img width="600" height="200" src="https://github.com/allysontalyor/ETL-Project/blob/master/Images/ETL_image.png?raw=true)">
