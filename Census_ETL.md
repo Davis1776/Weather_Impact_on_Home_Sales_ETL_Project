@@ -15,4 +15,4 @@ U.S. Census ETL
 - The first dataframe, us_census_df, called pulled data from all 50 states. We created a second dataframe, IN_census, and verified the data contained 92 rows - one for each of Indiana's 92 counties.
 - The county and state fields were pulled as FIPS codes and the "us" dependency, the FIPS codes were converted to state and county names.
 - Columns were re-sorted for a more natural looking arrangement.
-- The final dataframe, IN_census_3, was also set to a csv file called IN_census_file.csv
+- The final dataframe, IN_census_3, was also set to a csv file called IN_census_file.csv.
