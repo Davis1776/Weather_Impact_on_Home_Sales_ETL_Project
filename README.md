@@ -54,7 +54,8 @@ The extracted housing related data source was the U.S. Census and was aquired us
 The five-year ACS was selected since it has the most complete housing data. From the table containing approximately 20,000 variables, we selected: -- Median Home Value, Household Income, Population, Median Age, Per Capita Income, State, and County -- The state and county fields will be useful in joining the Census table to the other tables -- Once the data was called utilizing the Census API, the data was put into a pandas dataframe.
 
 ![Census Data](https://github.com/allysontalyor/ETL-Project/blob/master/Images/ACS_Screen_Shot.png)
-Steps to Extract and Transform the Home Price Data:
+
+## Steps to Extract and Transform the Home Price Data:
 
 •   Transforming the U.S. Census housing related data
 
