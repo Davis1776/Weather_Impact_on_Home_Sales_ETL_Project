@@ -183,7 +183,7 @@ for URL in url_list:
 •	Please note that in this dataframe some “NaN” values were intentionally left in.  Data is present for all cities for the average high and low temperatures, but snowfall data is only available for 64 of the 107 cities.  
 
 
-## NOTES
+## Notes
 
 •	The final csv file for the home price data:  home_price_final.csv
 
