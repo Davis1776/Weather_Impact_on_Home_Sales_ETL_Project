@@ -33,7 +33,7 @@ We will look at dates, temperature changes, conditions, buyer location per count
 
 Our goal is to provide the impact of home sales in Indiana based on weather. We will look at dates, temperature changes, conditions, buyer location per county, sale prices, population count, head income and medium home value. 
 
-# Average Temperatures
+## Average Temperatures
 
 As you might guess, January is typically the coldest month and July the hottest. Here are average temperatures for each month. 
 
@@ -42,7 +42,7 @@ As you might guess, January is typically the coldest month and July the hottest.
 </p>
 
 
-# Monthly Precipitation
+## Monthly Precipitation
 
 While kids do get to enjoy snow days in Indiana, the summer months bring the most precipitation. Check out the monthly averages.
 
@@ -90,14 +90,14 @@ The state and county fields will be useful in joining the Census table to the ot
 
 •   The final dataframe, IN_census_3, was also set to a csv file called IN_census_file.csv
 
-Extract
+### Extract
 
 •	The first step is to read in the original CSV file.  This data set came from kaggle, and is titled: Indiana - Property Sales Disclosure.  The link is: https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure.  This file is 2GB!
 
 •	The file was downloaded directly from the website.
 
 
-Transform
+### Transform
 
 •	This dataset contains 87 columns, including data on the buyer, seller, sales price, lot description, tax information, and sales date.
 
@@ -109,10 +109,10 @@ Transform
 
 •	We obtained weather data for 107 Indiana cities.  Only data for those cities was included in the final home price dataset.  To do this, the city list was copied over from the weather jupyter notebook.  Then the cities needed to be converted to upper case letters to match up with the city entries in the home price dataset.  A for loop was setup to include only those 107 cities. 
 
-•	Columns were renamed to be more descriptive.  
+•   Columns were renamed to be more descriptive.  
 •   New column names: Acreage, Property Street, Property City, Property State, Property Zip, Sale Price, Buyer Street, Buyer City, Buyer State, Buyer Zip, Conveyance Date.
 
-•   We discovered 1,934 duplicates on home_prices.csv file
+•       We discovered 1,934 duplicates on home_prices.csv file
 
 •	Duplicate data was dropeed using: .drop_duplicates() 
 
@@ -122,7 +122,7 @@ Transform
 ## Steps to Extract and Transform the Weather Data:
 
 
-Extract
+### Extract
 
 •	Our original plan was to get data for the specific location and day of each home sale using an API call from Open Weather Map.  Historical data was unavailable without a paid subscription.  This was true of many other weather websites as well.
 
@@ -152,7 +152,7 @@ for url in url_list:
 </p>
 
 
-Transform
+### Transform
 
 •	The columns were transposed and then the files merged back together so that the averaged weather data are columns.
 
@@ -160,7 +160,7 @@ Transform
 
 •	Please note that in this dataframe some “NaN” values were intentionally left in.  Data is present for all cities for the average high and low temperatures, but snowfall data is only available for 64 of the 107 cities.  
 
-Extract
+### Extract
 
 All three CSV files were read and loaded into a Dataframe.
          
@@ -169,7 +169,7 @@ All three CSV files were read and loaded into a Dataframe.
 •	Source for IN_census_file.csv: US Census Data www.census.gov 
 
 
-Transform
+### Transform
 
 For ERD
 
@@ -186,7 +186,7 @@ For Ipynb
 •	Column names were made pretty by removing the space and brackets by using .str.replace(' ', '_') ('(', '') (')', '') function
 •	Columns with NaN were replaced with key value pair
 
-Load
+## Load
 
 •	Created connection to PostgreSql
 •	Final DB named HomeSales_DB is loaded to PostgreSQL 
@@ -195,7 +195,7 @@ Load
 •	Final ExtractTransformLoad work is shown in:  Final_ETL.ipynb
 
 
-# NOTES
+## NOTES
 
 •	The final csv file for the home price data:  home_price_final.csv
 
@@ -205,7 +205,7 @@ Load
 
 •	All work to extract and transform the weather data is in:  weather_data.ipynb
 
-# Potential Future Questions to Researh:
+## Potential Future Questions to Researh:
 1. Does Indiana monthly temperature impact monthly growth?
 2. Where in the Unites States are most people moving to Indiana from? 
 3. What counties in Indiana experience the most growth per year? 
