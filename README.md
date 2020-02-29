@@ -51,8 +51,22 @@ U.S. Census (API)
 
 The extracted housing related data source was the U.S. Census and was aquired using an API. The specific data set selected was from was the 2018 American Community Survey 5-Year Survey U.S. Census ACS and the data points we selected came from the following table: U.S. Census Variables
 
+The five-year ACS was selected since it has the most complete housing data. From the table containing approximately 20,000 variables, we selected: -- Median Home Value, Household Income, Population, Median Age, Per Capita Income, State, and County -- The state and county fields will be useful in joining the Census table to the other tables -- Once the data was called utilizing the Census API, the data was put into a pandas dataframe.
+
 ![Census Data](https://github.com/allysontalyor/ETL-Project/blob/master/Images/ACS_Screen_Shot.png)
 Steps to Extract and Transform the Home Price Data:
+
+•   Transforming the U.S. Census housing related data
+
+•   Fields were converted to integer using .astype.
+
+•   The first dataframe, us_census_df, called pulled data from all 50 states. We created a second dataframe, IN_census, and verified the data contained 92 rows - one for each of Indiana's 92 counties.
+
+•   The county and state fields were pulled as FIPS codes and the "us" dependency, the FIPS codes were converted to state and county names.
+
+•   Columns were re-sorted for a more natural looking arrangement.
+
+•   The final dataframe, IN_census_3, was also set to a csv file called IN_census_file.csv
 
 Extract
 
@@ -73,7 +87,8 @@ Transform
 
 •	We obtained weather data for 107 Indiana cities.  Only data for those cities was included in the final home price dataset.  To do this, the city list was copied over from the weather jupyter notebook.  Then the cities needed to be converted to upper case letters to match up with the city entries in the home price dataset.  A for loop was setup to include only those 107 cities. 
 
-•	Columns were renamed to be more descriptive.  New column names: Acreage, Property Street, Property City, Property State, Property Zip, Sale Price, Buyer Street, Buyer City, Buyer State, Buyer Zip, Conveyance Date.
+•	Columns were renamed to be more descriptive.  
+•   New column names: Acreage, Property Street, Property City, Property State, Property Zip, Sale Price, Buyer Street, Buyer City, Buyer State, Buyer Zip, Conveyance Date.
 
 •   We discovered 1,934 duplicates on home_prices.csv file
 
