@@ -42,7 +42,7 @@ While kids do get to enjoy snow days in Indiana, the summer months bring the mos
 
 ## The Plan
 
-# Steps to Extract and Transform the Census Data
+## Steps to Extract and Transform the Census Data
 
 Extraction - Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
 Open Weather Now (API)
