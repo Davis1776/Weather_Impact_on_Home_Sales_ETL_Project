@@ -7,7 +7,7 @@
 <p align="center">
 	Title: Does Weather in Indiana Impact If and When a Home Is Sold?
 
-Participants: Allyson Taylor, Benedicta Justin, James Martin, and Michael Davis
+	Participants: Allyson Taylor, Benedicta Justin, James Martin, and Michael Davis
 </p>
 
 ## Aims:
