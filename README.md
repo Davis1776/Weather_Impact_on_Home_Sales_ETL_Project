@@ -37,14 +37,20 @@ Our goal is to provide the impact of home sales in Indiana based on weather. We 
 
 As you might guess, January is typically the coldest month and July the hottest. Here are average temperatures for each month. 
 
-![Average Temperatures](https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_temp.png)
+<p align="center">
+  <img width="300" height="100" src="https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_temp.png)">
+</p>
 
 
 # Monthly Precipitation
 
 While kids do get to enjoy snow days in Indiana, the summer months bring the most precipitation. Check out the monthly averages.
 
-![Monthly Precipitation](https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_precip.png)
+
+<p align="center">
+  <img width="300" height="100" src="https://visitindiana.com/adportal/Content/FileUploads/cms/weather/weather_chart_precip.png)">
+</p>
+
 
 ## The Plan
 
@@ -130,9 +136,11 @@ for url in url_list:
     url_split = url.split("/")
     df_3["City"] = url_split[2].upper()
     average_monthly = average_monthly.append(df_3)
-
-![U.S. Climate Data](https://github.com/allysontalyor/ETL-Project/blob/master/Images/U.S.%20Climate%20Data.png)
-
+    
+ 
+ <p align="center">
+  <img width="300" height="100" src="https://github.com/allysontalyor/ETL-Project/blob/master/Images/U.S.%20Climate%20Data.png">
+</p>
 
 
 Transform
