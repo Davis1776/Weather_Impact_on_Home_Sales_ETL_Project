@@ -5,7 +5,7 @@
 </p>
 
 
-Participants: Allyson Taylor, Benedicta Sumalatha, James Martin, and Michael Davis
+Participants: Allyson Taylor, Benedicta Justin, James Martin, and Michael Davis
 
 Title: Does Weather in Indiana Impact If and When a Home Is Sold?
 
