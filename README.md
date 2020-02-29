@@ -1,10 +1,10 @@
-# ETL-Project
+# <p align="center">Title: Does Weather in Indiana Impact If and When a Home Is Sold? </p>
 
 <p align="center">
   <img width="600" height="200" src="https://github.com/allysontalyor/ETL-Project/blob/master/Images/ETL_image.png?raw=true)">
 </p>
 
-## <p align="center">Title: Does Weather in Indiana Impact If and When a Home Is Sold? </p>
+
 ## <p align="center">Participants: Allyson Taylor, Benedicta Justin, James Martin & Michael Davis</p>
 
 ## Aims:
