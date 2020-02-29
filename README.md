@@ -74,7 +74,6 @@ The state and county fields will be useful in joining the Census table to the ot
 
 ![Census Data](https://github.com/allysontalyor/ETL-Project/blob/master/Images/ACS_Screen_Shot.png)
 
-## Steps to Extract and Transform the Home Price Data:
 
 •   Transforming the U.S. Census housing related data
 
@@ -87,6 +86,9 @@ The state and county fields will be useful in joining the Census table to the ot
 •   Columns were re-sorted for a more natural looking arrangement
 
 •   The final dataframe, IN_census_3, was also set to a csv file called IN_census_file.csv
+
+
+## Steps to Extract and Transform the Home Price Data: 
 
 ### Extract
 
