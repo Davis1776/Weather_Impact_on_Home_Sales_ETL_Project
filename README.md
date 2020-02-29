@@ -57,19 +57,28 @@ Steps to Extract and Transform the Home Price Data:
 Extract
 
 •	The first step is to read in the original CSV file.  This data set came from kaggle, and is titled: Indiana - Property Sales Disclosure.  The link is: https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure.  This file is 2GB!
+
 •	The file was downloaded directly from the website.
 
 
 Transform
 
 •	This dataset contains 87 columns, including data on the buyer, seller, sales price, lot description, tax information, and sales date.
+
 •	The following columns were selected: Parcel1_Acreage, PropStreet, PropCity, PropState, PropZip, C6_Sales_price_Assessor, Buyer1Street, Buyer1City, Buyer1State, Buyer1ZIP, Conveyance_Date
+
 •	A .dropna() was performed on the data to drop any rows that contain an NaN.
+
 •	There were many inconsistencies in the Property City column, including misspellings and differences in the cases of the letters.
-•	We obtained weather data for 107 Indiana cities.  Only data for those cities was included in the final home price dataset.  To do this, the city list was copied over from the weather jupyter notebook.  Then the cities needed to be converted to upper case letters to match up with the city entries in the home price dataset.  A for loop was setup to include only those 107 cities.  
+
+•	We obtained weather data for 107 Indiana cities.  Only data for those cities was included in the final home price dataset.  To do this, the city list was copied over from the weather jupyter notebook.  Then the cities needed to be converted to upper case letters to match up with the city entries in the home price dataset.  A for loop was setup to include only those 107 cities. 
+
 •	Columns were renamed to be more descriptive.  New column names: Acreage, Property Street, Property City, Property State, Property Zip, Sale Price, Buyer Street, Buyer City, Buyer State, Buyer Zip, Conveyance Date.
+
 •   We discovered 1,934 duplicates on home_prices.csv file
+
 •	Duplicate data was dropeed using: .drop_duplicates() 
+
 •	Finally, the cleaned file was saved as a csv.
 
 
@@ -79,9 +88,13 @@ Transform
 Extract
 
 •	Our original plan was to get data for the specific location and day of each home sale using an API call from Open Weather Map.  Historical data was unavailable without a paid subscription.  This was true of many other weather websites as well.
+
 •	Weather data was scraped from the following website: https://www.usclimatedata.com/climate/indiana/united-states/3184
-•	Chromedriver was used to collect html data from the website and BeautifulSoup was used to extract parts of the data that we needed.  
+
+•	Chromedriver was used to collect html data from the website and BeautifulSoup was used to extract parts of the data that we needed.
+
 •	The first piece of information that was needed was the url endpoint for each city to obtain weather data from the tables.  This was done by scraping the endpoints.
+
 •	The following code was used to obtain data from the tables of average weather data.  An empty dataframe titled average_monthly was created to hold the scraped data.  A for loop was created to cycle through the urls and the pandas function .read_html() was used to collect the data from the tables on the page.  A column was added to include the name of the city.  This was done by splitting the url string using the pandas function .split(“/”), and then indexing the component containing the name of the city.  
 
 average_monthly = pd.DataFrame()
@@ -102,7 +115,8 @@ for url in url_list:
 
 Transform
 
-•	The columns were transposed and then the files merged back together so that the averaged weather data are columns.  
+•	The columns were transposed and then the files merged back together so that the averaged weather data are columns.
+
 •	A County column was added so that the census data and the weather table can be joined. The home price data was joined via the city name.
 
 •	Please note that in this dataframe some “NaN” values were intentionally left in.  Data is present for all cities for the average high and low temperatures, but snowfall data is only available for 64 of the 107 cities.  
@@ -112,8 +126,11 @@ Transform
 # NOTES
 
 •	The final csv file for the home price data:  home_price_final.csv
+
 •	The final csv file for the weather data:  average_indiana_weather.csv
+
 •	All work to extract and transform the home price data is in:  Home_Price_Data.ipynb
+
 •	All work to extract and transform the weather data is in:  weather_data.ipynb
 
 # Potential Future Questions to Researh:
