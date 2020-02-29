@@ -1,6 +1,9 @@
 # ETL-Project
 
-![ETL](https://github.com/allysontalyor/ETL-Project/blob/master/Images/ETL_image.png?raw=true)
+<p align="center">
+  <img width="600" height="200" src="https://github.com/allysontalyor/ETL-Project/blob/master/Images/ETL_image.png?raw=true)">
+</p>
+
 
 Participants: Allyson Taylor, Benedicta Sumalatha, James Martin, and Michael Davis
 
