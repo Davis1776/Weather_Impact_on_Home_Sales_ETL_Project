@@ -205,6 +205,11 @@ For Ipynb
 
 •	All work to extract and transform the weather data is in:  weather_data.ipynb
 
+## ERD Notes
+
+•	ERD diagram is saved as a PNG file QuickDBD-export.png
+•	DB Table creation script is stored in HomeSales_DB.sql 
+
 ## Potential Future Questions to Research:
 1. Does Indiana monthly temperature impact monthly growth?
 2. Where in the Unites States are most people moving to Indiana from? 
