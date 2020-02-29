@@ -205,7 +205,7 @@ For Ipynb
 
 •	All work to extract and transform the weather data is in:  weather_data.ipynb
 
-## Potential Future Questions to Researh:
+## Potential Future Questions to Research:
 1. Does Indiana monthly temperature impact monthly growth?
 2. Where in the Unites States are most people moving to Indiana from? 
 3. What counties in Indiana experience the most growth per year? 
