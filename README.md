@@ -90,7 +90,8 @@ for url in url_list:
     url_split = url.split("/")
     df_3["City"] = url_split[2].upper()
     average_monthly = average_monthly.append(df_3)
-![U.S. Climate Data]https://github.com/allysontalyor/ETL-Project/blob/master/Images/U.S.%20Climate%20Data.png
+
+![U.S. Climate Data](https://github.com/allysontalyor/ETL-Project/blob/master/Images/U.S.%20Climate%20Data.png)
 
 
 
