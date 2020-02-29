@@ -180,6 +180,17 @@ for URL in url_list:
 
 •	Please note that in this dataframe some “NaN” values were intentionally left in.  Data is present for all cities for the average high and low temperatures, but snowfall data is only available for 64 of the 107 cities.  
 
+
+## NOTES
+
+•	The final csv file for the home price data:  home_price_final.csv
+
+•	The final csv file for the weather data:  average_indiana_weather.csv
+
+•	All work to extract and transform the home price data is in:  Home_Price_Data.ipynb
+
+•	All work to extract and transform the weather data is in:  weather_data.ipynb
+
 ### Extract
 
 All three CSV files were read and loaded into a Dataframe.
@@ -220,16 +231,6 @@ For Ipynb
 
 •	Final **E**xtract**T**ransform**L**oad work is shown in:  Final_ETL.ipynb
 
-
-## NOTES
-
-•	The final csv file for the home price data:  home_price_final.csv
-
-•	The final csv file for the weather data:  average_indiana_weather.csv
-
-•	All work to extract and transform the home price data is in:  Home_Price_Data.ipynb
-
-•	All work to extract and transform the weather data is in:  weather_data.ipynb
 
 ## ERD Notes
 
