@@ -64,13 +64,13 @@ U.S. Census (API)
 The extracted housing related data source was the U.S. Census and was aquired using an API. The specific data set selected was from was the 2018 American Community Survey 5-Year Survey U.S. Census ACS and the data points we selected came from the following table: U.S. Census Variables
 
 The five-year ACS was selected since it has the most complete housing data. From the table containing approximately 20,000 variables, we selected: 
-	* Median Home Value 
-	* Household Income 
-	* Population
-	* Median Age
-	* Per Capita Income 
-	* State
-	* County 
+	- Median Home Value 
+	- Household Income 
+	- Population
+	- Median Age
+	- Per Capita Income 
+	- State
+	- County 
 	
 The state and county fields will be useful in joining the Census table to the other tables Once the data was called utilizing the Census API, the data was put into a pandas dataframe.
 
