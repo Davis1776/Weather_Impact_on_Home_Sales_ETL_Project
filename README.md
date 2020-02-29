@@ -17,7 +17,7 @@ Title: Does Weather in Indiana Impact If and When a Home Is Sold?
 
 •	AIM 3: Design tables and utilize Open Weather Map (API), Kaggle (CSV), U.S. Census (API). 
 
-•	AIM 4: Uitilize Analysis tools such as: Json | Python | CSV | pgAdmin 4
+•	AIM 4: Utlilize Analysis tools such as: Json | Python | CSV | pgAdmin 4
 
 •	AIM 5: Provide data on if weather impacts the home sales in Indiana.
 
@@ -56,12 +56,12 @@ While kids do get to enjoy snow days in Indiana, the summer months bring the mos
 
 ## Steps to Extract and Transform the Census Data
 
-Extraction - Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
+Extraction - Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc.)
 Open Weather Now (API)
 Indiana Home Sales (Kaggle csv)
 U.S. Census (API)
 
-The extracted housing related data source was the U.S. Census and was aquired using an API. The specific data set selected was from was the 2018 American Community Survey 5-Year Survey U.S. Census ACS and the data points we selected came from the following table: U.S. Census Variables
+The extracted housing related data source was the U.S. Census and was acquired using an API. The specific data set selected was from was the 2018 American Community Survey 5-Year Survey U.S. Census ACS and the data points we selected came from the following table: U.S. Census Variables
 
 The five-year ACS was selected since it has the most complete housing data. From the table containing approximately 20,000 variables, we selected: 
   - Median Home Value 
@@ -92,7 +92,7 @@ The state and county fields will be useful in joining the Census table to the ot
 
 ### Extract
 
-•	The first step is to read in the original CSV file.  This data set came from kaggle, and is titled: Indiana - Property Sales Disclosure.  The link is: https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure.  This file is 2GB!
+•	The first step is to read in the original CSV file.  This data set came from Kaggle, and is titled: Indiana - Property Sales Disclosure.  The link is: https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure.  This file is 2GB!
 
 •	The file was downloaded directly from the website.
 
@@ -107,14 +107,14 @@ The state and county fields will be useful in joining the Census table to the ot
 
 •	There were many inconsistencies in the Property City column, including misspellings and differences in the cases of the letters.
 
-•	We obtained weather data for 107 Indiana cities.  Only data for those cities was included in the final home price dataset.  To do this, the city list was copied over from the weather jupyter notebook.  Then the cities needed to be converted to upper case letters to match up with the city entries in the home price dataset.  A for loop was setup to include only those 107 cities. 
+•	We obtained weather data for 107 Indiana cities.  Only data for those cities was included in the final home price dataset.  To do this, the city list was copied over from the weather Jupyter notebook.  Then the cities needed to be converted to upper case letters to match up with the city entries in the home price dataset.  A for loop was setup to include only those 107 cities. 
 
 •   Columns were renamed to be more descriptive.  
 •   New column names: Acreage, Property Street, Property City, Property State, Property Zip, Sale Price, Buyer Street, Buyer City, Buyer State, Buyer Zip, Conveyance Date.
 
 •       We discovered 1,934 duplicates on home_prices.csv file
 
-•	Duplicate data was dropeed using: .drop_duplicates() 
+•	Duplicate data was dropped using: .drop_duplicates() 
 
 •	Finally, the cleaned file was saved as a csv.
 
@@ -130,13 +130,13 @@ The state and county fields will be useful in joining the Census table to the ot
 
 •	Chromedriver was used to collect html data from the website and BeautifulSoup was used to extract parts of the data that we needed.
 
-•	The first piece of information that was needed was the url endpoint for each city to obtain weather data from the tables.  This was done by scraping the endpoints.
+•	The first piece of information that was needed was the URL endpoint for each city to obtain weather data from the tables.  This was done by scraping the endpoints.
 
-•	The following code was used to obtain data from the tables of average weather data.  An empty dataframe titled average_monthly was created to hold the scraped data.  A for loop was created to cycle through the urls and the pandas function .read_html() was used to collect the data from the tables on the page.  A column was added to include the name of the city.  This was done by splitting the url string using the pandas function .split(“/”), and then indexing the component containing the name of the city.  
+•	The following code was used to obtain data from the tables of average weather data.  An empty dataframe titled average_monthly was created to hold the scraped data.  A for loop was created to cycle through the URLs and the pandas function .read_html() was used to collect the data from the tables on the page.  A column was added to include the name of the city.  This was done by splitting the URL string using the pandas function .split(“/”), and then indexing the component containing the name of the city.  
 
 average_monthly = pd.DataFrame()
 
-for url in url_list:
+for URL in url_list:
     main_url = "https://www.usclimatedata.com" + url
     tables = pd.read_html(main_url)
     df_1 = tables[0]
@@ -188,11 +188,11 @@ For Ipynb
 
 ## Load
 
-•	Created connection to PostgreSql
+•	Created connection to PostgreSQL
 •	Final DB named HomeSales_DB is loaded to PostgreSQL 
 •	All the three DFs were converted to SQL
-•	Finally Queried to check if the DB has all the tables.  
-•	Final ExtractTransformLoad work is shown in:  Final_ETL.ipynb
+•	Finally Queried to check if the DB has all the tables  
+•	Final **E**xtract**T**ransform**L**oad work is shown in:  Final_ETL.ipynb
 
 
 ## NOTES
