@@ -5,19 +5,19 @@
 </p>
 
 ## <p align="center">Title: Does Weather in Indiana Impact If and When a Home Is Sold? </p>
-## <p align="center">Participants: Allyson Taylor, Benedicta Justin, James Martin, & Michael Davis</p>
+## <p align="center">Participants: Allyson Taylor, Benedicta Justin, James Martin & Michael Davis</p>
 
 ## Aims:
 
-•	AIM 1: Evaluate existing data from the Indiana Property Disclosure datasets.
+•	AIM 1: Evaluate existing data from the Indiana Property Disclosure datasets
 
-•	AIM 2: Analyze data for weather, home sales, and Census data to find correlations within each dataset. 
+•	AIM 2: Analyze data for weather, home sales, and Census data to find correlations within each dataset
 
-•	AIM 3: Design tables and utilize Open Weather Map (API), Kaggle (CSV), U.S. Census (API). 
+•	AIM 3: Design tables and utilize Open Weather Map (API), Kaggle (CSV), U.S. Census (API)
 
 •	AIM 4: Utlilize Analysis tools such as: Json | Python | CSV | pgAdmin 4
 
-•	AIM 5: Provide data on if weather impacts the home sales in Indiana.
+•	AIM 5: Provide data on if weather impacts the home sales in Indiana
 
 
 ## Impact and Intended Results
@@ -78,13 +78,13 @@ The state and county fields will be useful in joining the Census table to the ot
 
 •   Transforming the U.S. Census housing related data
 
-•   Fields were converted to integer using .astype.
+•   Fields were converted to integer using .astype
 
-•   The first dataframe, us_census_df, called pulled data from all 50 states. We created a second dataframe, IN_census, and verified the data contained 92 rows - one for each of Indiana's 92 counties.
+•   The first dataframe, us_census_df, called pulled data from all 50 states. We created a second dataframe, IN_census, and verified the data contained 92 rows - one for each of Indiana's 92 counties
 
-•   The county and state fields were pulled as FIPS codes and the "us" dependency, the FIPS codes were converted to state and county names.
+•   The county and state fields were pulled as FIPS codes and the "us" dependency, the FIPS codes were converted to state and county names
 
-•   Columns were re-sorted for a more natural looking arrangement.
+•   Columns were re-sorted for a more natural looking arrangement
 
 •   The final dataframe, IN_census_3, was also set to a csv file called IN_census_file.csv
 
@@ -99,7 +99,18 @@ The state and county fields will be useful in joining the Census table to the ot
 
 •	This dataset contains 87 columns, including data on the buyer, seller, sales price, lot description, tax information, and sales date.
 
-•	The following columns were selected: Parcel1_Acreage, PropStreet, PropCity, PropState, PropZip, C6_Sales_price_Assessor, Buyer1Street, Buyer1City, Buyer1State, Buyer1ZIP, Conveyance_Date
+•	The following columns were selected: 
+  - Parcel1_Acreage
+  - PropStreet 
+  - PropCity
+  - PropState 
+  - PropZip 
+  - C6_Sales_price_Assessor 
+  - Buyer1Street 
+  - Buyer1City
+  - Buyer1State 
+  - Buyer1ZIP
+  - Conveyance_Date
 
 •	A .dropna() was performed on the data to drop any rows that contain an NaN.
 
@@ -108,7 +119,18 @@ The state and county fields will be useful in joining the Census table to the ot
 •	We obtained weather data for 107 Indiana cities.  Only data for those cities was included in the final home price dataset.  To do this, the city list was copied over from the weather Jupyter notebook.  Then the cities needed to be converted to upper case letters to match up with the city entries in the home price dataset.  A for loop was setup to include only those 107 cities. 
 
 •   Columns were renamed to be more descriptive.  
-•   New column names: Acreage, Property Street, Property City, Property State, Property Zip, Sale Price, Buyer Street, Buyer City, Buyer State, Buyer Zip, Conveyance Date.
+•   New column names: 
+  - Acreage 
+  - Property Street 
+  - Property City 
+  - Property State 
+  - Property Zip 
+  - Sale Price 
+  - Buyer Street 
+  - Buyer City 
+  - Buyer State 
+  - Buyer Zip 
+  - Conveyance Date
 
 •       We discovered 1,934 duplicates on home_prices.csv file
 
@@ -166,7 +188,6 @@ All three CSV files were read and loaded into a Dataframe.
 •	Source for average_indiana_weather.csv: US Climate Data https://www.usclimatedata.com/climate/indiana/united-states/3184
 •	Source for IN_census_file.csv: US Census Data www.census.gov 
 
-
 ### Transform
 
 For ERD
@@ -176,20 +197,27 @@ For ERD
 •	CSV files after filling empty columns to replace with new address where address was null, etc.
 
 •	The home_price_final.csv was renamed to home_price_final_ERD.csv
+
 •	The average_indiana_weather.csv was renamed to average_indiana_weather_ERD.csv
+
 •	The IN_census_file.csv was renamed to IN_census_file_ERD.csv
 
 For Ipynb
 
 •	Column names were made pretty by removing the space and brackets by using .str.replace(' ', '_') ('(', '') (')', '') function
+
 •	Columns with NaN were replaced with key value pair
 
 ## Load
 
 •	Created connection to PostgreSQL
+
 •	Final DB named HomeSales_DB is loaded to PostgreSQL 
+
 •	All the three DFs were converted to SQL
-•	Finally Queried to check if the DB has all the tables  
+
+•	Finally Queried to check if the DB has all the tables 
+
 •	Final **E**xtract**T**ransform**L**oad work is shown in:  Final_ETL.ipynb
 
 
@@ -206,6 +234,7 @@ For Ipynb
 ## ERD Notes
 
 •	ERD diagram is saved as a PNG file QuickDBD-export.png
+
 •	DB Table creation script is stored in HomeSales_DB.sql 
 
 ## Potential Future Questions to Research:
