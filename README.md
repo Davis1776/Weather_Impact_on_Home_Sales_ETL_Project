@@ -275,7 +275,7 @@ for URL in url_list:
 * Data Source: [Kaggle](https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure)
 * Data Source: [Open Weather Now](https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure)
 * Data Source: [United States Census](https://www.census.gov/)
-* Data Source: [Uunited States Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184)
+* Data Source: [United States Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184)
 * [Plotly.js documentation](https://plot.ly/javascript/) was used to help build the plots.
 * Hat tip to Triology Education Services for providing the data source and project guidelines.
 * Butler University Data Analytics and Visualization Executive Education program, instructors, and teammates for assistance.
