@@ -263,7 +263,7 @@ for URL in url_list:
 * console.log
 
 
-## Author
+## Authors
 
 * **Michael Davis** - [Davis1776](https://github.com/Davis1776)
 * **Allyson Talyor** - [allysontalyor](https://github.com/allysontalyor)
@@ -279,3 +279,6 @@ for URL in url_list:
 * [Plotly.js documentation](https://plot.ly/javascript/) was used to help build the plots.
 * Hat tip to Triology Education Services for providing the data source and project guidelines.
 * Butler University Data Analytics and Visualization Executive Education program, instructors, and teammates for assistance.
+
+## Copyright
+Michael Davis, Allyson Talyor, Benedicta Justin, James Marting © 2020. All Rights Reserved.
