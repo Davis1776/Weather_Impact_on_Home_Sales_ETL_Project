@@ -10,9 +10,13 @@
 ## Aims:
 
 •	AIM 1: Evaluate existing data from the Indiana Property Disclosure datasets
+
 •	AIM 2: Analyze data for weather, home sales, and Census data to find correlations within each dataset
+
 •	AIM 3: Design tables and utilize Open Weather Map (API), Kaggle (CSV), U.S. Census (API)
+
 •	AIM 4: Utilize Analysis tools such as: Json | Python | CSV | pgAdmin 4
+
 •	AIM 5: Provide data on if weather impacts the home sales in Indiana
 
 
