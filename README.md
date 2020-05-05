@@ -267,7 +267,7 @@ for URL in url_list:
 - - -
 ## Authors
 
-* **Michael Davis** - [Davis1776](https://github.com/Davis1776)
+* **Michael R. Davis** - [Davis1776](https://github.com/Davis1776)
 * **Allyson Talyor** - [allysontalyor](https://github.com/allysontalyor)
 * **Benedicta Justin** - [sumic59](https://github.com/sumic59)
 * **James Martin** - [jdmusic88](https://github.com/jdmusic88)
@@ -280,9 +280,9 @@ for URL in url_list:
 * Data Source: [United States Census](https://www.census.gov/)
 * Data Source: [United States Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184)
 * [Plotly.js documentation](https://plot.ly/javascript/) was used to help build the plots.
-* Hat tip to Triology Education Services for providing the data source and project guidelines.
-* Butler University Data Analytics and Visualization Executive Education program, instructors, and teammates for assistance.
+* [Butler University Data Analytics and Visualization Executive Education program](https://www.butler.edu/executive-education) and instructors for assistance.
+* Hat tip to Triology Education Services for providing the challenge guidelines.
 
 
 ## Copyright
-Michael Davis, Allyson Talyor, Benedicta Justin, James Martin © 2020. All Rights Reserved.
+Michael R. Davis, Allyson Talyor, Benedicta Justin, James Martin © 2020. All Rights Reserved.
