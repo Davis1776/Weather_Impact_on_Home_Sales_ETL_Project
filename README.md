@@ -6,21 +6,17 @@
 
 ## <p align="center">Participants: Allyson Taylor, Benedicta Justin, James Martin & Michael Davis</p>
 
+
 ## Aims:
 
 •	AIM 1: Evaluate existing data from the Indiana Property Disclosure datasets
-
 •	AIM 2: Analyze data for weather, home sales, and Census data to find correlations within each dataset
-
 •	AIM 3: Design tables and utilize Open Weather Map (API), Kaggle (CSV), U.S. Census (API)
-
 •	AIM 4: Utilize Analysis tools such as: Json | Python | CSV | pgAdmin 4
-
 •	AIM 5: Provide data on if weather impacts the home sales in Indiana
 
 
 ## Impact and Intended Results
-
 
 The Hoosier State that is proud to have all four seasons of the year. No matter what time of year it is, you’ll find something fun to do outdoors thanks to our Midwestern location. Lately Indiana has been one of the top growth states of the USA in population. Since Indiana experiences all four seasons, the question on the table is to discover how weather impacts this growth. 
 
@@ -249,18 +245,20 @@ for URL in url_list:
 4. Which season of the year provides a decline in yearly population growth? 
 
 
-## Tools used  --  NEEDS TO BE UPDATED
+## Tools Used
 
 * pgAdmin4
+* PostgreSQL
+* Python
+* Beautiful Soup
+* ChromeDriver
+* Multiple APIs
 * Plot.ly
-* Javascript
-* HTML
-* CSS
+* ERD Diagram
+* Jupyter Notebook/Lab
 * JSON
-* D3.js
-* GitHub Pages
-* GitHub
-* console.log
+* CSV
+* GitHub & GitHub Pages
 
 
 ## Authors
@@ -269,6 +267,7 @@ for URL in url_list:
 * **Allyson Talyor** - [allysontalyor](https://github.com/allysontalyor)
 * **Benedicta Justin** - [sumic59](https://github.com/sumic59)
 * **James Martin** - [jdmusic88](https://github.com/jdmusic88)
+
 
 ## Acknowledgments
 
@@ -279,6 +278,7 @@ for URL in url_list:
 * [Plotly.js documentation](https://plot.ly/javascript/) was used to help build the plots.
 * Hat tip to Triology Education Services for providing the data source and project guidelines.
 * Butler University Data Analytics and Visualization Executive Education program, instructors, and teammates for assistance.
+
 
 ## Copyright
 Michael Davis, Allyson Talyor, Benedicta Justin, James Martin © 2020. All Rights Reserved.
