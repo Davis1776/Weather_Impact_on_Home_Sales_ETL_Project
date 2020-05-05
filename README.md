@@ -281,4 +281,4 @@ for URL in url_list:
 * Butler University Data Analytics and Visualization Executive Education program, instructors, and teammates for assistance.
 
 ## Copyright
-Michael Davis, Allyson Talyor, Benedicta Justin, James Marting © 2020. All Rights Reserved.
+Michael Davis, Allyson Talyor, Benedicta Justin, James Martin © 2020. All Rights Reserved.
