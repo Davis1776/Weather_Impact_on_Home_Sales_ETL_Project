@@ -247,3 +247,35 @@ for URL in url_list:
 2. Where in the Unites States are most people moving to Indiana from? 
 3. What counties in Indiana experience the most growth per year? 
 4. Which season of the year provides a decline in yearly population growth? 
+
+
+## Tools used  --  NEEDS TO BE UPDATED
+
+* pgAdmin4
+* Plot.ly
+* Javascript
+* HTML
+* CSS
+* JSON
+* D3.js
+* GitHub Pages
+* GitHub
+* console.log
+
+
+## Author
+
+* **Michael Davis** - [Davis1776](https://github.com/Davis1776)
+* **Allyson Talyor** - [allysontalyor](https://github.com/allysontalyor)
+* **Benedicta Justin** - [sumic59](https://github.com/sumic59)
+* **James Martin** - [jdmusic88](https://github.com/jdmusic88)
+
+## Acknowledgments
+
+* Data Source: Kaggle: [Kaggle](https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure)
+* Data Source: Open Weather Now: [OpenWeatherNow](https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure)
+* Data Source: United States Census Bureau: [USCensus](https://www.census.gov/)
+* Data Source: United States Climate Data: [USClimate](https://www.usclimatedata.com/climate/indiana/united-states/3184)
+* [Plotly.js documentation](https://plot.ly/javascript/) was used to help build the plots.
+* Hat tip to Triology Education Services for providing the data source and project guidelines.
+* Butler University Data Analytics and Visualization Executive Education program, instructors, and teammates for assistance.
