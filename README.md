@@ -197,7 +197,7 @@ for URL in url_list:
          
 •	Source for home_price_final.csv:  Kaggle: Indiana - Property Sales Disclosure
 
-•	Source for average_indiana_weather.csv: [U.S. Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184 "US Climate Data page")
+•	Source for average_indiana_weather.csv: [U.S. Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184 "U.S. Climate Data page")
 
 •	Source for IN_census_file.csv: [U.S. Census Data](www.census.gov "U.S. Census")
 
