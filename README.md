@@ -24,7 +24,7 @@
 
 The Hoosier State that is proud to have all four seasons of the year. No matter what time of year it is, you’ll find something fun to do outdoors thanks to our Midwestern location. Lately Indiana has been one of the top growth states of the USA in population. Since Indiana experiences all four seasons, the question on the table is to discover how weather impacts this growth. 
 
-Our goal is to provide the impact of home sales in Indiana based on weather utilizing the CSV from: https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure.
+Our goal is to provide the impact of home sales in Indiana based on weather utilizing the CSV from: [Kaggle](https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure "Kaggle Indiana Property Sales Disclosure dataset").
 
 We will look at dates, temperature changes, conditions, buyer location per county, sale prices, population count, head income and medium home value. 
 
@@ -91,7 +91,7 @@ The state and county fields will be useful in joining the Census table to the ot
 
 ### Extract
 
-•	The first step is to read in the original CSV file.  This data set came from Kaggle and is titled: Indiana - Property Sales Disclosure.  The link is: https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure.  This file is 2GB!
+•	The first step is to read in the original CSV file.  This data set came from [Kaggle](https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure "Indiana Property Sales Disclosure dataset from Kaggle") and is titled: Indiana - Property Sales Disclosure. This file is 2GB!
 
 •	The file was downloaded directly from the website.
 
@@ -120,20 +120,20 @@ The state and county fields will be useful in joining the Census table to the ot
 •	We obtained weather data for 107 Indiana cities.  Only data for those cities was included in the final home price dataset.  To do this, the city list was copied over from the weather Jupyter notebook.  Then the cities needed to be converted to upper case letters to match up with the city entries in the home price dataset.  A for loop was setup to include only those 107 cities. 
 
 •   Columns were renamed to be more descriptive.  
-New column names: 
-  - Acreage 
-  - Property Street 
-  - Property City 
-  - Property State 
-  - Property Zip 
-  - Sale Price 
-  - Buyer Street 
-  - Buyer City 
-  - Buyer State 
-  - Buyer Zip 
-  - Conveyance Date
+    New column names: 
+      - Acreage 
+      - Property Street 
+      - Property City 
+      - Property State 
+      - Property Zip 
+      - Sale Price 
+      - Buyer Street 
+      - Buyer City 
+      - Buyer State 
+      - Buyer Zip 
+      - Conveyance Date
 
-•       We discovered 1,934 duplicates on home_prices.csv file.
+• We discovered 1,934 duplicates on home_prices.csv file.
 
 •	Duplicate data was dropped using: .drop_duplicates().
 
@@ -147,7 +147,7 @@ New column names:
 
 •	Our original plan was to get data for the specific location and day of each home sale using an API call from Open Weather Map.  Historical data was unavailable without a paid subscription.  This was true of many other weather websites as well.
 
-•	Weather data was scraped from the following website: https://www.usclimatedata.com/climate/indiana/united-states/3184
+•	Weather data was scraped from the following website: [US Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184 "US Climate Data")
 
 •	ChromeDriver was used to collect html data from the website and BeautifulSoup was used to extract parts of the data that we needed.
 
@@ -197,7 +197,7 @@ for URL in url_list:
          
 •	Source for home_price_final.csv:  Kaggle: Indiana - Property Sales Disclosure
 
-•	Source for average_indiana_weather.csv: US Climate Data https://www.usclimatedata.com/climate/indiana/united-states/3184
+•	Source for average_indiana_weather.csv: [US Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184 "US Climate Data page")
 
 •	Source for IN_census_file.csv: US Census Data www.census.gov 
 
@@ -267,22 +267,22 @@ for URL in url_list:
 - - -
 ## Authors
 
-* **Michael R. Davis** - [Davis1776](https://github.com/Davis1776)
-* **Allyson Talyor** - [allysontalyor](https://github.com/allysontalyor)
-* **Benedicta Justin** - [sumic59](https://github.com/sumic59)
-* **James Martin** - [jdmusic88](https://github.com/jdmusic88)
+* **Michael R. Davis** - [Davis1776](https://github.com/Davis1776 "Michael Davis' GitHub")
+* **Allyson Talyor** - [allysontalyor](https://github.com/allysontalyor "Allyson Talyor's GitHub")
+* **Benedicta Justin** - [sumic59](https://github.com/sumic59 "Benedicta Justin's GitHub")
+* **James Martin** - [jdmusic88](https://github.com/jdmusic88 "James Martin's GitHub")
 
 
 ## Acknowledgments
 
-* Data Source: [Kaggle](https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure)
-* Data Source: [Open Weather Now](https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure)
-* Data Source: [United States Census](https://www.census.gov/)
-* Data Source: [United States Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184)
-* [Plotly.js documentation](https://plot.ly/javascript/) was used to help build the plots.
-* [Butler University Data Analytics and Visualization Executive Education program](https://www.butler.edu/executive-education) and instructors for assistance.
+* Data Source: [Kaggle](https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure "Kaggle")
+* Data Source: [Open Weather Now](https://www.kaggle.com/shoreviewanalytics/indiana-property-sales-disclosure "Open Weather Now")
+* Data Source: [United States Census](https://www.census.gov/ "U.S. Census")
+* Data Source: [United States Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184 "U.S. Climate Date")
+* [Plotly.js documentation](https://plot.ly/javascript/ "Plot.ly") was used to help build the plots.
+* [Butler University Data Analytics and Visualization Executive Education program](https://www.butler.edu/executive-education "Butler University's Executive Eduction homepage") and instructors for assistance.
 * Hat tip to Triology Education Services for providing the challenge guidelines.
 
 
 ## Copyright
-Michael R. Davis, Allyson Talyor, Benedicta Justin, James Martin © 2020. All Rights Reserved.
+Michael R. Davis, Allyson Talyor, Benedicta Justin, James Martin :copyright: 2020. All Rights Reserved.
