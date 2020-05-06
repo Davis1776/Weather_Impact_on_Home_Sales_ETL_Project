@@ -147,7 +147,7 @@ The state and county fields will be useful in joining the Census table to the ot
 
 •	Our original plan was to get data for the specific location and day of each home sale using an API call from Open Weather Map.  Historical data was unavailable without a paid subscription.  This was true of many other weather websites as well.
 
-•	Weather data was scraped from the following website: [US Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184 "US Climate Data")
+•	Weather data was scraped from the following website: [U.S. Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184 "U.S. Climate Data")
 
 •	ChromeDriver was used to collect html data from the website and BeautifulSoup was used to extract parts of the data that we needed.
 
@@ -197,9 +197,9 @@ for URL in url_list:
          
 •	Source for home_price_final.csv:  Kaggle: Indiana - Property Sales Disclosure
 
-•	Source for average_indiana_weather.csv: [US Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184 "US Climate Data page")
+•	Source for average_indiana_weather.csv: [U.S. Climate Data](https://www.usclimatedata.com/climate/indiana/united-states/3184 "US Climate Data page")
 
-•	Source for IN_census_file.csv: US Census Data www.census.gov 
+•	Source for IN_census_file.csv: [U.S. Census Data](www.census.gov "U.S. Census")
 
 ### For ERD
 
